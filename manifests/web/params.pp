@@ -20,11 +20,11 @@ class graylog2::web::params {
     }
   }
 
-  $package_name = 'graylog2-web'
+  $package_name = 'graylog-web'
 
   $package_version = 'installed'
 
-  $service_name  = 'graylog2-web'
+  $service_name  = 'graylog-web'
 
   $service_ensure = 'running'
 
@@ -48,7 +48,7 @@ class graylog2::web::params {
 
   $config_file = '/etc/graylog2/web/graylog2-web-interface.conf'
 
-  $daemon_username = 'graylog2-web'
+  $daemon_username = 'graylog-web'
 
   $timeout = false
 

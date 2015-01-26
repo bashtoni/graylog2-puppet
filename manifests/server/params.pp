@@ -19,16 +19,16 @@ class graylog2::server::params {
     }
   }
 
-  $package_name = 'graylog2-server'
+  $package_name = 'graylog-server'
   $package_version = 'installed'
 
-  $service_name  = 'graylog2-server'
+  $service_name  = 'graylog-server'
 
   $service_ensure = 'running'
   $service_enable = true
 
   $config_file = '/etc/graylog2.conf'
-  $daemon_username = 'graylog2'
+  $daemon_username = 'graylog'
 
   # Config file variables.
   $alert_check_interval = '60'
