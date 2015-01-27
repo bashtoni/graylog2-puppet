@@ -46,7 +46,7 @@ class graylog2::web::params {
 
   $http_path_prefix = false
 
-  $config_file = '/etc/graylog2/web/graylog2-web-interface.conf'
+  $config_file = '/etc/graylog/web/web.conf'
 
   $daemon_username = 'graylog-web'
 
